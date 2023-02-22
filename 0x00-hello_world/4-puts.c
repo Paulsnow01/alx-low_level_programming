@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - prints the phrase "Programming is like building a mulr=tilingual puzzle"
+ * main - prints the phrase "Programming is like building a mulr=tilingual puzzle
  *
- * Return: Always 0 (Success)
+ * Return: Always if exited properly, non-zero otherwise
  */
 int main(void)
 {
