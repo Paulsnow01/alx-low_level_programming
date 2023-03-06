@@ -5,7 +5,6 @@
  * @c: An input character
  * Returns: 1 if c  is uppercase
  */
-
 int _isupper(int c)
 {
 	char uppercase = 'A';
