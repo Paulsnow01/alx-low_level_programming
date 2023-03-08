@@ -4,7 +4,7 @@
  * print_line - a function that draws a straight line in the terminal.
  * followed by a new line.
  * @n: an input integer
- * Return: always 0 if successful
+ *Return: always 0 if successful
  */
 void print_line(int n)
 {
