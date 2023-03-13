@@ -1,10 +1,9 @@
 #include "main.h"
-
 /**
- * _strcat - function that concatenates two strings
- * @src - source
- * @dest - destination
- * Return: pointer to dest.
+ * _strcat - concatenates two strings,
+ * @dest: destination.
+ * @src: source.
+ * Return: the pointer to dest.
  */
 char *_strcat(char *dest, char *src)
 {
@@ -18,10 +17,11 @@ char *_strcat(char *dest, char *src)
 	while (count2 >= 0)
 	{
 		*(dest + count) = *(src + count2);
-		if (*(src +count2) == '\0')
+		if (*(src + count2) == '\0')
 			break;
 		count++;
 		count2++;
 	}
-	return(dest);
+	return (dest);
 }
+Footer
